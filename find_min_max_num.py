@@ -15,7 +15,7 @@ def  find_min_max(numbers):
 
 
 # Test the function
-nums = [5, 2, 9, 1, 7]
+nums = [5, 2, 9, 1, 8, 10]
 min_num, max_num = find_min_max(nums)
 print( f"The smallest number is: {min_num}")
 print( f"The largest number is: {max_num}")
