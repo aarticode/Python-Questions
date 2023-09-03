@@ -22,3 +22,13 @@ def demo():
 
     #call
 demo()
+
+#create python variable
+
+a=10
+b="Aarti"
+c=35
+
+print(a)
+print(b)
+print(c)
