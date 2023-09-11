@@ -3,12 +3,12 @@
 try:
     num1 = int(input('Enter Numerator: '))
     num2 = int(input('Enter Denominator: '))
-    subtraction= num1-num2
-    print(f'Result is: {subtraction}')
+    Addition = num1+num2
+    print(f'Result is: {Addition}')
 except:
     print('Invalid input!')
 else:
-    print('subtraction is successful.')
+    print('Addition is successful.')
 
 
 ## Try 1 ##
