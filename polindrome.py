@@ -20,3 +20,19 @@ while (i > 0):
     print("  number is not palindrome")
 
 
+
+
+# Write a Python program to check whether a given string is a palindrome or not, without using an iterative method?
+    def fun(string):
+      s1 = string
+      s = string[::-1]
+      if s1 == s:
+        return True
+      else:
+        return False
+
+
+    print(fun("madam"))
+
+
+
