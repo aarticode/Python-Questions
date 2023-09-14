@@ -45,5 +45,16 @@ print(a and b) # False
 print(a or b) # True
 print(not b) # True
 
+5.#Bitwise Operators are used to performing operations over the bits. The binary operators (&, |, OR) work on bits. See the example below.
+
+
+# Identity operator example
+a = 10
+b = 12
+print(a & b) # 8
+print(a | b) # 14
+print(a ^ b) # 6
+print(~a) # -11
+
 
 
