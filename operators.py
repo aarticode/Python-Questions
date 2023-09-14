@@ -35,5 +35,15 @@ print(a) # 24
 a **=2
 print(a) # 576
 
+4.#Logical operators are used to performing logical operations like And, Or, and Not. See the example below.
+
+
+# Logical operator examples
+a = True
+b = False
+print(a and b) # False
+print(a or b) # True
+print(not b) # True
+
 
 
