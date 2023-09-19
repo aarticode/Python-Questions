@@ -14,3 +14,10 @@ count = 0
 while count < 5:
     print("Hello!")
     count += 1
+
+count = 0
+
+while count <3:
+    print ("Aarti!")
+    count +=1
+
