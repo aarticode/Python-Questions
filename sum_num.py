@@ -32,3 +32,5 @@ def sum(num):
         return num[0] + sum(num[1:])
 
 print(sum([2, 4, 5, 6, 7]))
+
+
