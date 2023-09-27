@@ -28,3 +28,13 @@ for num in numberList:
     if maxNum < num:
         maxNum = num
 print(maxNum)
+
+
+#Finding the Minimum Number in a List
+numberList = [15, 85, 35, 89, 125, 2]
+
+minNum = numberList[0]
+for num in numberList:
+    if minNum > num:
+        minNum = num
+print(minNum)
