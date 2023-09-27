@@ -19,3 +19,12 @@ nums = [5, 2, 9, 1, 8, 10]
 min_num, max_num = find_min_max(nums)
 print( f"The smallest number is: {min_num}")
 print( f"The largest number is: {max_num}")
+
+ #Finding the Maximum Number in a List
+numberList = [15, 85, 35, 89, 125]
+
+maxNum = numberList[0]
+for num in numberList:
+    if maxNum < num:
+        maxNum = num
+print(maxNum)
