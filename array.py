@@ -7,7 +7,7 @@ print(a[-3])
 print(a[-5])
 print(a[-1])
 
-
+#What is the difference between Python Arrays and lists?
 import array
 a = array.array('i', [1, 2, 3])
 for i in a:
