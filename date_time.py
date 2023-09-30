@@ -28,4 +28,13 @@ print("Day of year: ", datetime.date.today().strftime("%j"))
 print("Day of the month : ", datetime.date.today().strftime("%d"))
 print("Day of week: ", datetime.date.today().strftime("%A"))
 
+#Return the year and name of weekday:
+
+import datetime
+
+x = datetime.datetime.now()
+
+print(x.year)
+print(x.strftime("%A"))
+
 
