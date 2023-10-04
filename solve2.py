@@ -12,6 +12,11 @@ result = reverse_sentence(sentence)
 print(result)
 
 
+
+
+
+
+
 class Calculator:
     def add(self, *args):
         return sum(args)
@@ -22,5 +27,13 @@ calc = Calculator()
 # Call the add method with different numbers of arguments
 print(calc.add(2, 3))      # Output: 5
 print(calc.add(2, 3, 4))   # Output: 9
+
+
+#What does len() do?
+#len() is an inbuilt function used to calculate the length of sequences like list, python string, and array.
+
+my_list = [1, 2, 3, 4, 5]
+length = len(my_list)
+print(length)
 
 
