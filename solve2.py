@@ -87,6 +87,12 @@ for i, m in enumerate(Months):
 # print x
 
 
+#How can you use for loop to repeat the same statement over and again?
+#You can use for loop for even repeating the same statement over and again. Here in the example, we have printed out the word “guru99” three times
+for i in '123':
+ print ("guru99",i,)
+
+
 
 
 
