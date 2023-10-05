@@ -64,4 +64,11 @@ def main():
 if __name__ == "__main__":
     main()
 
+ #Explain While loop in Python with example
+#While loop does the exact same thing what “if statement” does, but instead of running the code block once, they jump back to the point where it began the code and repeat the whole process again.
 
+x=0
+#define a while loop
+while(x <4):
+        print(x)
+        x = x+1
