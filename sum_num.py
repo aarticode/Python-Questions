@@ -33,4 +33,14 @@ def sum(num):
 
 print(sum([2, 4, 5, 6, 7]))
 
+def sum ():
+    a=10
+    b=20
+    c=a+b
+    return c
+#calling sum function in print statement
+
+print ("The sum is:",sum())
+
+
 
