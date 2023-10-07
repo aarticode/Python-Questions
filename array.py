@@ -7,12 +7,12 @@ print(a[-3])
 print(a[-5])
 print(a[-1])
 
-#What is the difference between Python Arrays and lists?
-import array
-a = array.array('i', [1, 2, 3])
-for i in a:
-    print(i, end=' ')    #OUTPUT: 1 2 3
-a = array.array('i', [1, 2, 'string'])    #OUTPUT: TypeError: an integer is required (got type str)
-a = [1, 2, 'string']
-for i in a:
-   print(i, end=' ')
+
+#from array import*
+#arrayname =array(Typecode,[initializers])
+
+import array as arr
+a = arr.array('i',[2,4,6,8])
+print ("first element:" ,a[0])
+print ("second element:",a[1])
+print ("third element:",a [2])
