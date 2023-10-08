@@ -101,6 +101,11 @@ spaces = re.compile(r'\s+')
 result = re.sub(spaces, '', string)
 print(result)
 
+#Counting a whitspace in  a string
+
+string = "P r ogramm in g "
+print(string.count(' '))
+
 
 
 
