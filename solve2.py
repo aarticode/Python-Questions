@@ -92,6 +92,16 @@ for i, m in enumerate(Months):
 for i in '123':
  print ("guru99",i,)
 
+#Removing  All whitespace in String
+
+import re
+
+string = "C O D E"
+spaces = re.compile(r'\s+')
+result = re.sub(spaces, '', string)
+print(result)
+
+
 
 
 
