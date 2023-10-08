@@ -24,3 +24,11 @@ for i in range(n):
             print('*', end=' ')
         print()
 
+
+
+#Building a Pyramid in Python
+floors = 3
+h = 2*floors-1
+for i in range(1, 2*floors, 2):
+    print('{:^{}}'.format('*'*i, h))
+
