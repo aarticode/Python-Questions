@@ -13,5 +13,5 @@ class Student:
     print("The roll no of the student is", self.rollNo)
 
 
-student1 = Student("Aarti", "Chouhan", 22)
+student1 = Student("Aarti", "Chouhan", 1)
 student1.getStudentDetails()
