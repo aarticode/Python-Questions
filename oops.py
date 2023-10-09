@@ -1,4 +1,6 @@
-# code
+#What is an Object?
+#An object is an instance of a class. Data members and methods of a class cannot be used directly.
+# We need to create an object (or instance) of the class to use them. In simple terms, they are the actual world entities that have a state and behavior.
 class Student:
  def __init__(self, studentName, studentSurname, studentRollNo):
     self.name = studentName
