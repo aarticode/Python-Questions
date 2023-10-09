@@ -107,6 +107,16 @@ string = "P r ogramm in g "
 print(string.count(' '))
 
 
+#Randimizing the items of a list in Python
+
+from random import shuffle
+
+lst = ['Python', 'is', 'Easy']
+shuffle(lst)
+print(lst)
+
+
+
 
 
 
