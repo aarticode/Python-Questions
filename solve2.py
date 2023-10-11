@@ -115,6 +115,13 @@ lst = ['Python', 'is', 'Easy']
 shuffle(lst)
 print(lst)
 
+#Python Ranges Function
+#Python range() is an in-built function in Python which returns a sequence of numbers starting from 0 and increments to 1 until it reaches a specified number.
+
+for i in range(5):
+  print(i)
+
+
 
 
 
