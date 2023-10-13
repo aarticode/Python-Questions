@@ -29,3 +29,20 @@ class Person:
 
 x = Person("Rohit", "Chouhan")
 x.printname()
+
+#Define encapsulation in Python
+class Man:
+    def __init__(self, name, child):
+        self.name = name
+        self.child = child
+
+    def display(self):
+        print(self.name)
+        print(self.child)
+
+
+man = Man('Simran', 2)  # Here we are accessing it using class method
+man.display()  # Here we are accessing it directly from outside.
+print(man.name)
+print(man.child)
+
