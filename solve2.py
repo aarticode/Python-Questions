@@ -123,6 +123,17 @@ for i in range(9):
 
 
 
+# What does len() do?
+
+# “ len() ” is used to measure the number of elements/items in the List, String, etc.
+#It will return the number of characters if the object is a string.
+
+a = "Python Language"
+b = len(a)
+print(b)
+
+
+
 
 
 
