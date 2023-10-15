@@ -10,4 +10,18 @@ def are_anagrams(str1, str2):
 # Test cases
 print(are_anagrams("listen", "silent"))  # True
 print(are_anagrams("Hello", "World"))     # False
-print(are_anagrams("Astronomer", "Moon starer"))  # True
+print(are_anagrams("Astronomer", "Moon Starer"))  # True
+
+#Comparing two Strings for Anagramrs
+
+str1 = "Listen"
+str2 = "Silent"
+
+str1 = list(str1.upper())
+str2 = list(str2.upper())
+str1.sort(), str2.sort()
+
+if(str1 == str2):
+    print("True")
+else:
+    print("False")
