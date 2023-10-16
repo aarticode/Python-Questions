@@ -16,3 +16,9 @@ sort_list = lambda x: x.sort()
 numbers =[3,1,2,4]
 sort_list (numbers)
 print(numbers)
+
+
+myfunction = lambda x:x*x
+a = myfunction(10)
+print(a)
+
