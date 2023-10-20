@@ -7,7 +7,7 @@ def reverse_sentence(sentence):
     return reversed_sentence
 
 # Test the function
-sentence = "Hello world! Python is awesome."
+sentence = "Hello world! Python  is easy."
 result = reverse_sentence(sentence)
 print(result)
 
