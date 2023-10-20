@@ -32,7 +32,7 @@ print(calc.add(2, 3, 4))   # Output: 9
 #What does len() do?
 #len() is an inbuilt function used to calculate the length of sequences like list, python string, and array.
 
-my_list = [1, 2, 3, 4, 5]
+my_list = [1, 2, 3, 4, 5, 6]
 length = len(my_list)
 print(length)
 
