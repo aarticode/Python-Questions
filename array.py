@@ -16,3 +16,17 @@ a = arr.array('i',[2,4,6,8])
 print ("first element:" ,a[0])
 print ("second element:",a[1])
 print ("third element:",a [2])
+
+
+class Solution(object):
+    def runningSum(self, nums):
+        for i in range(1,len(nums)):
+            nums[i]+=nums[i-1]
+        return nums
+
+
+
+
+
+
+
