@@ -56,5 +56,17 @@ print(a | b) # 14
 print(a ^ b) # 6
 print(~a) # -11
 
+#The Walrus Operator allows you to assign a value to a variable within an expression. This can be useful when you need to use a value multiple times in a loop, but don’t want to repeat the calculation.
+
+#The Walrus Operator is represented by the `:=` syntax and can be used in a variety of contexts including while loops and if statements.
+
+names = ["Jacob", "Joe", "Jim"]
+
+if (name := input("Enter a name: ")) in names:
+	print(f"Hello, {name}!")
+else:
+	print("Name not found.")
+
+
 
 
