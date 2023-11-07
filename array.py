@@ -65,4 +65,13 @@ if __name__ == "__main__":
 	# display sum
 	print('Sum of the array is ', ans)
 
+#Python Program to Find Sum of Array Using enumerate function
+#This code calculates the sum of elements in the list list1 using a loop. It iterates through each element, adds it to the running sum s, and then prints the final sum.
+
+list1 = [12, 4, 4, 15];s=0
+for i,a in enumerate(list1):
+ s+=a
+print(s)
+
+
 
