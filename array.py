@@ -15,7 +15,7 @@ import array as arr
 a = arr.array('i',[2,4,6,8])
 print ("first element:" ,a[0])
 print ("second element:",a[1])
-print ("third element:",a [2])
+print ("third element:", a [2])
 
 
 class Solution(object):
@@ -28,5 +28,41 @@ class Solution(object):
 
 
 
+# Python 3 code to find sum
+# of elements in given array
+
+
+def _sum(arr):
+
+	# initialize a variable
+	# to store the sum
+	# while iterating through
+	# the array later
+	sum = 0
+
+	# iterate through the array
+	# and add each element to the sum variable
+	# one at a time
+	for i in arr:
+		sum = sum + i
+
+	return(sum)
+
+
+
+#Python Program to Find Sum of Array
+#Iterating through the array and adding each element to the sum variable and finally displaying the sum.
+
+# main function
+if __name__ == "__main__":
+	# input values to list
+	arr = [12, 3, 4, 15]
+
+	# calculating length of array
+	n = len(arr)
+	# calling function ans store the sum in ans
+	ans = _sum(arr)
+	# display sum
+	print('Sum of the array is ', ans)
 
 
